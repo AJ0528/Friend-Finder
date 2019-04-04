@@ -1,0 +1,23 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Friend Finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJ0528/Friend-Finder.git"
+  },
+  "author": "alfredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJ0528/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/AJ0528/Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
