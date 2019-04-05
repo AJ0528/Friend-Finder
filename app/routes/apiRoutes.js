@@ -4,9 +4,13 @@ module.exports = function(app) {
     res.json(friendsArr);
   });
 app.post("/api/friends", function(req, res) {
-    var num = [];
+
+
+  var num = [];
+
     for (index = 0; index < friends.length; i++) {
       var answer = 0;
+      
       for (x = 0; x < 10; x++) {
        answer += Math.abs(parseInt(friends[i].num[x])-parseInt(req.body.num[x]));
       }
