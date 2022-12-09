@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/AJ0528/Friend-Finder#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "heroku": "^7.22.9",
     "path": "^0.12.7"
   }
